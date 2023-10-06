@@ -93,9 +93,18 @@ a {
 /* styles for second section  */
 
 .section-2 {
+    padding-top: 30px;
+    padding-bottom: 170px;
     background-color: white;
-    height: 100px;
+    height: 200px;
     flex-grow: 1;
+}
+
+.inner-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-container {
@@ -110,6 +119,23 @@ a {
     flex-direction: column;
     max-width: 200px;
     gap: 8px;
+  }
+
+  .info-icon {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #3882f6;
+  }
+
+  .title-2 {
+    padding-bottom: 30px;
+  }
+
+  .text {
+    text-align: center;
   }
 
 /* styles for third section  */
